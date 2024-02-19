@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Insure landing Navigation Page</title>
+    <script src="nav-page.js" defer></script>
+</head>
+<body>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: hsl(270, 9%, 17%);
+            background-image: url('images/bg-pattern-mobile-nav.svg');
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: 100%, cover;
+        }
+        header{
+            background-color: hsl(0, 0%, 100%);
+        }
+        nav{
+            height: 90vh;
+            margin: 0;
+            padding: 50px 0;
+            display: flex;
+            flex-direction: column;
+        }
+        a{
+            font-size: 1.3em;
+            text-transform: uppercase;
+            color: hsl(0, 0%, 100%);
+            padding-bottom: 50px;
+        }
+        .cta-4{
+            width: 80%;
+            margin: 0 auto;
+            padding: 10px 20px;
+            color: hsla(0, 0%, 98%,0.8);
+            border: 2px solid hsla(0, 0%, 98%,0.8);
+        }
+    </style>
+    <header>
+        <img src="images/logo.svg" alt="logo">
+        <img id="icon-close" src="images/icon-close.svg" alt="icon-close">
+    </header>
+    <nav>
+        <a href="#">How we work</a>
+        <a href="#">Blog</a>
+        <a href="#">Account</a>
+        <a class="cta-4" href="#">View plans</a>
+      </nav>
+</body>
+</html>
